@@ -11,7 +11,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #333;
-  height: 100vh;
+  height: 100%;
 }
 img {
   height: 30px;
@@ -139,6 +139,7 @@ button {
 .projects--container {
   padding-top: 20px;
   padding-left: 25px;
+  /* margin-right: 20px; */
   background-color: #e2e8f0;
   grid-row: 3/-1;
   grid-column: 2/-1;
@@ -206,13 +207,22 @@ h2 {
 .announcements-sub--container {
   background-color: #fff;
   padding: 30px 25px;
-  /* color: #1992d4; */
   border-radius: 20px;
 }
 .announcements-sub--container h3 {
   margin: 10px auto;
 }
+.announcements-sub--container p {
+  padding-bottom: 20px;
+  border-bottom: 2px solid #33333350;
+}
+.announcements-sub--container p:last-child {
+  border: none;
+  padding: 0;
+}
+
 .trending-container {
+  margin-top: 30px;
 }
 .trending-sub--container {
 }
