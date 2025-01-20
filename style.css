@@ -38,6 +38,8 @@ img {
   grid-row: 1/-1;
   color: #fff;
   padding-left: 20px;
+  font-weight: 400;
+  font-size: 20px;
   /* position: absolute;
   top: 0;
   left: 0; */
@@ -170,7 +172,7 @@ button {
   background-color: #fff;
   border-radius: 10px;
   border-left: 10px solid yellow;
-  height: 150px;
+  height: 200px;
   max-width: 400px;
   margin-top: 10px;
   position: relative;
